@@ -44,9 +44,6 @@ class UserController extends Controller
 
 
 
-
-
-
 	public function getSignIn()
 	{
 		return view('auth.login');
@@ -67,7 +64,17 @@ class UserController extends Controller
 	}
 
 
+	public function getProfile(){
 
+		$orders = Auth::user()->orders;
+		$orders->transform(function($order, $key){
+			$order->cart = unserialize($order->cart);
+			return $order;
+		}); //unserialize order(cart)
+
+
+		return view('profile', ['orders' => $orders]);
+	}
 
 
 	public function getLogout()

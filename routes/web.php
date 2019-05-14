@@ -44,7 +44,7 @@ Route::group(['middleware' => ['guest']], function(){
 	Route::post('/signin', [
 		'uses' => 'UserController@postSignIn',
 		'as' => 'signin'
-	]);
+	]);	
 
 	///////////////////////////////////////////////
 	
@@ -52,17 +52,7 @@ Route::group(['middleware' => ['guest']], function(){
 	Route::get('/about', [
 		'uses'=> 'Controller@getAbout',
 		'as' => 'about'
-	]);
-
-	Route::get('/portfolio', [
-		'uses'=> 'ProductController@getProduct',
-		'as' => 'portfolio'
-	]);
-
-	Route::get('/portfolio-single', [
-		'uses'=> 'ProductController@getPortfolioSingle',
-		'as' => 'portfolio-single'
-	]);
+	]);	
 
 	Route::get('/news', [
 		'uses'=> 'Controller@getNews',
@@ -104,6 +94,42 @@ Route::group(['middleware' => ['auth']], function(){
 	Route::post('/portal', [
 		'uses' => 'MovementController@postMovement',
 		'as' => 'portal'
+	]);
+
+	///////////////////////////////////////////////
+
+	Route::get('/add-to-cart/{id}', [
+		'uses' => 'ProductController@getAddToCart',
+		'as' => 'addToCart'
+	]);
+
+	Route::get('/shopping-cart', [
+		'uses' => 'ProductController@getShoppingCart',
+		'as' => 'shoppingCart'
+	]);
+
+	Route::get('/checkout', [
+		'uses' => 'ProductController@postCheckout',
+		'as' => 'checkout'
+	]);
+
+	///////////////////////////////////////////////
+
+	Route::get('/portfolio', [
+		'uses'=> 'ProductController@getProduct',
+		'as' => 'portfolio'
+	]);
+
+	Route::get('/portfolio-single', [
+		'uses'=> 'ProductController@getPortfolioSingle',
+		'as' => 'portfolio-single'
+	]);
+
+	///////////////////////////////////////////////
+
+	Route::get('/profile', [
+		'uses' => 'UserController@getProfile',
+		'as' => 'user.profile'
 	]);
 
 
