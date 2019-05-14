@@ -234,7 +234,7 @@
                         <img src="theme/img/bg-img/4.jpg" alt="">
                         <!-- Overlay Effect -->
                         <div class="overlay-effect">
-                            <h4>Digital Marketing</h4>
+                            <h4>FIVEL WEBSITE</h4>
                             <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est</p>
                         </div>
                         <!-- View More -->
@@ -248,8 +248,8 @@
                         <img src="theme/img/product-img/fivel-x.png" alt="">
                         <!-- Overlay Effect -->
                         <div class="overlay-effect">
-                            <h4>Digital Marketing</h4>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est</p>
+                            <h4>FIVEL X</h4>
+                            <p>Fivel X is the physical glove not digital. The patient can do their movements for the cure.</p>
                         </div>
                         <!-- View More -->
                         <div class="view-more-btn">
@@ -262,8 +262,8 @@
                         <img src="theme/img/product-img/fivel-pro.png" alt="">
                         <!-- Overlay Effect -->
                         <div class="overlay-effect">
-                            <h4>Digital Marketing</h4>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est</p>
+                            <h4>FIVEL PRO</h4>
+                            <p>Fıvel Pro is the most detailed product in the FIVEL product family. There are 5 different glove which are doing different movements.</p>
                         </div>
                         <!-- View More -->
                         <div class="view-more-btn">
@@ -276,8 +276,8 @@
                         <img src="theme/img/product-img/fivel.png" alt="">
                         <!-- Overlay Effect -->
                         <div class="overlay-effect">
-                            <h4>Digital Marketing</h4>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est</p>
+                            <h4>FIVEL</h4>
+                            <p>Fivel was designed for the consumer which will be rented from a physiotherapy center.There is only one glove which is doing the flexion.</p>
                         </div>
                         <!-- View More -->
                         <div class="view-more-btn">
@@ -290,7 +290,7 @@
                         <img src="theme/img/bg-img/5.jpg" alt="">
                         <!-- Overlay Effect -->
                         <div class="overlay-effect">
-                            <h4>Digital Marketing</h4>
+                            <h4>FIVEL APPLICATION</h4>
                             <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est</p>
                         </div>
                         <!-- View More -->
@@ -304,7 +304,7 @@
                         <img src="theme/img/bg-img/6.jpg" alt="">
                         <!-- Overlay Effect -->
                         <div class="overlay-effect">
-                            <h4>Digital Marketing</h4>
+                            <h4>FOLLOW MOVEMENT</h4>
                             <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est</p>
                         </div>
                         <!-- View More -->
@@ -333,7 +333,7 @@
                                 </div>
                                 <!-- Testimonial Content -->
                                 <div class="testimonial-content">
-                                    <h4>“Colorlib Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable.”</h4>
+                                    <h4>“Fivel ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts.”</h4>
                                     <!-- Ratings -->
                                     <div class="ratings">
                                         <i class="icon_star"></i>
@@ -344,7 +344,7 @@
                                     </div>
                                     <!-- Author Info -->
                                     <div class="author-info">
-                                        <h5>Darrell Goodman <span>- CEO colorlib</span></h5>
+                                        <h5>Özenç Çelik <span>- CTO FIVEL</span></h5>
                                     </div>
                                     <!-- Quote Icon -->
                                     <div class="quote-icon"><img src="theme/img/core-img/quote.png" alt=""></div>
@@ -359,7 +359,7 @@
                                 </div>
                                 <!-- Testimonial Content -->
                                 <div class="testimonial-content">
-                                    <h4>“Colorlib Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable.”</h4>
+                                    <h4>“Fivel ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts.”</h4>
                                     <!-- Ratings -->
                                     <div class="ratings">
                                         <i class="icon_star"></i>
@@ -370,7 +370,7 @@
                                     </div>
                                     <!-- Author Info -->
                                     <div class="author-info">
-                                        <h5>Darrell Goodman <span>- CEO colorlib</span></h5>
+                                        <h5>Betül Demirci <span>- CEO FIVEL</span></h5>
                                     </div>
                                     <!-- Quote Icon -->
                                     <div class="quote-icon"><img src="theme/img/core-img/quote.png" alt=""></div>
@@ -385,7 +385,7 @@
                                 </div>
                                 <!-- Testimonial Content -->
                                 <div class="testimonial-content">
-                                    <h4>“Colorlib Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable.”</h4>
+                                    <h4>“Fivel ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts.”</h4>
                                     <!-- Ratings -->
                                     <div class="ratings">
                                         <i class="icon_star"></i>
@@ -396,7 +396,7 @@
                                     </div>
                                     <!-- Author Info -->
                                     <div class="author-info">
-                                        <h5>Darrell Goodman <span>- CEO colorlib</span></h5>
+                                        <h5>Darrell Goodman <span>- DESIGNER FIVEL</span></h5>
                                     </div>
                                     <!-- Quote Icon -->
                                     <div class="quote-icon"><img src="theme/img/core-img/quote.png" alt=""></div>
@@ -485,7 +485,7 @@
                         <div class="post-content">
                             <span class="post-date"><span>13</span> December, 2018</span>
                             <a href="{{route('news')}}" class="post-title">Clinical Trials on Fivel: attested benefits</a>
-                            <p>“The purpose of this case series was to determine the effects of robot-assisted hand rehabilitation </p>
+                            <p>“The purpose of this case series was to determine the effects of robot-assisted hand rehabilitation. </p>
                             <a href="{{route('news')}}" class="read-more-btn">Read More <i class="arrow_carrot-2right"></i></a>
                         </div>
                     </div>

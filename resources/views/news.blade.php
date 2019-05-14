@@ -57,8 +57,8 @@
                         <!-- Post Content -->
                         <div class="post-content">
                             <span class="post-date"><span>23</span> August, 2018</span>
-                            <a href="{{route('single-news')}}" class="post-title">SEO: The Movie By Ignite Visibility</a>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut</p>
+                            <a href="{{route('single-news')}}" class="post-title">Meet us during next events!</a>
+                            <p>Join us and visit our stand during the next events!We look forward to meeting you!</p>
                             <a href="{{route('single-news')}}" class="read-more-btn">Read More <i class="arrow_carrot-2right"></i></a>
                         </div>
                     </div>
@@ -70,8 +70,8 @@
                         <!-- Post Content -->
                         <div class="post-content">
                             <span class="post-date"><span>13</span> December, 2018</span>
-                            <a href="{{route('single-news')}}" class="post-title">What Curling Irons Are The Best Ones</a>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut</p>
+                            <a href="{{route('single-news')}}" class="post-title">Clinical Trials on Fivel: attested benefits</a>
+                            <p>“The purpose of this case series was to determine the effects of robot-assisted hand rehabilitation.</p>
                             <a href="{{route('single-news')}}" class="read-more-btn">Read More <i class="arrow_carrot-2right"></i></a>
                         </div>
                     </div>
@@ -83,8 +83,8 @@
                         <!-- Post Content -->
                         <div class="post-content">
                             <span class="post-date"><span>08</span> July, 2018</span>
-                            <a href="{{route('single-news')}}" class="post-title">Amazon REV Workshop: Road to Seattle</a>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut</p>
+                            <a href="{{route('single-news')}}" class="post-title">Gloreha at SOFMER and SIMFER congress!</a>
+                            <p>We are pleased to invite you at the upcoming events we will take part in. You will have the chance to see and try. </p>
                             <a href="{{route('single-news')}}" class="read-more-btn">Read More <i class="arrow_carrot-2right"></i></a>
                         </div>
                     </div>
@@ -96,8 +96,8 @@
                         <!-- Post Content -->
                         <div class="post-content">
                             <span class="post-date"><span>23</span> August, 2018</span>
-                            <a href="{{route('single-news')}}" class="post-title">Take A Tour Around Major Tom’s New HQ</a>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut</p>
+                            <a href="{{route('single-news')}}" class="post-title">Fivel for kids: a new pediatric glove!</a>
+                            <p>We are pleased to announce new Fivel pediatric glove. After many requests, we developed a small glove that guarantees the same effectiveness!</p>
                             <a href="{{route('single-news')}}" class="read-more-btn">Read More <i class="arrow_carrot-2right"></i></a>
                         </div>
                     </div>
@@ -109,8 +109,8 @@
                         <!-- Post Content -->
                         <div class="post-content">
                             <span class="post-date"><span>13</span> December, 2018</span>
-                            <a href="{{route('single-news')}}" class="post-title">Croud &amp; SEO Meet-Up – 20th Sep 2018</a>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut</p>
+                            <a href="{{route('single-news')}}" class="post-title">What kind of therapy would you like to perform?</a>
+                            <p>Fivel is the device for upper limb rehabilitation that supports patients during all the phases of neuromotor recovery. .</p>
                             <a href="{{route('single-news')}}" class="read-more-btn">Read More <i class="arrow_carrot-2right"></i></a>
                         </div>
                     </div>
@@ -122,8 +122,8 @@
                         <!-- Post Content -->
                         <div class="post-content">
                             <span class="post-date"><span>08</span> July, 2018</span>
-                            <a href="{{route('single-news')}}" class="post-title">What To Look Forward To At Benchmark 2018</a>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut</p>
+                            <a href="{{route('single-news')}}" class="post-title">Next appointments and events!</a>
+                            <p>The treatment of chronic patients is the emergency for coming years due to ageing population. </p>
                             <a href="{{route('single-news')}}" class="read-more-btn">Read More <i class="arrow_carrot-2right"></i></a>
                         </div>
                     </div>

@@ -19,8 +19,6 @@ Route::get('/', function () {
 	
 	
 
-
-Route::group(['middleware' => ['guest']], function(){
 	
 	///////////////////////////////////////////////
 
@@ -69,7 +67,7 @@ Route::group(['middleware' => ['guest']], function(){
 		'as' => 'contact'
 	]);
 
-});
+
 
 Route::group(['middleware' => ['auth']], function(){
 	
@@ -98,6 +96,11 @@ Route::group(['middleware' => ['auth']], function(){
 
 	///////////////////////////////////////////////
 
+	Route::get('/add-to-movement/{id}', [
+		'uses' => 'MovementController@getAddToMovement',
+		'as' => 'addToMovement'
+	]);
+
 	Route::get('/add-to-cart/{id}', [
 		'uses' => 'ProductController@getAddToCart',
 		'as' => 'addToCart'
@@ -111,6 +114,11 @@ Route::group(['middleware' => ['auth']], function(){
 	Route::get('/checkout', [
 		'uses' => 'ProductController@postCheckout',
 		'as' => 'checkout'
+	]);
+
+	Route::get('/send-movement', [
+		'uses' => 'MovementController@postSendMovement',
+		'as' => 'sendMovement'
 	]);
 
 	///////////////////////////////////////////////

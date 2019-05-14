@@ -98,23 +98,23 @@
                         <!-- Single Sidebar Area -->
                         <div class="single-contact-card mb-50">
                             <h4>Contact Us</h4>
-                            <h3>(+65) 1234 5678</h3>
-                            <h6>hello.colorlib@gmail.com</h6>
+                            <h3>(+538) 354 45 77</h3>
+                            <h6>ozenc.celik@ceng.deu.edu.tr</h6>
                             <h6>Mon - Fri: 9:00 - 19:00 <br>Closed on Weekends</h6>
                         </div>
 
                         <!-- Single Sidebar Area -->
                         <div class="single-contact-card mb-50">
-                            <h4>London</h4>
-                            <h3>(+65) 2222 5678</h3>
-                            <h6>49 Charing Cross Rd, London, UK <br>hello.colorlib@gmail.com</h6>
+                            <h4>Bornova</h4>
+                            <h3>(+538) 354 45 77</h3>
+                            <h6>Gazi Osman Paşa Mahallesi, 35090 Bornova/İzmir <br>https://github.com/ozencelik</h6>
                         </div>
 
                         <!-- Single Sidebar Area -->
                         <div class="single-contact-card mb-50">
-                            <h4>New York</h4>
-                            <h3>(+65) 6666 5678</h3>
-                            <h6>40 Baria Sreet 13/2 NY City, US <br>hello.colorlib@gmail.com</h6>
+                            <h4>Alsancak</h4>
+                            <h3>(+538) 354 44 66</h3>
+                            <h6>Umurbey Mahallesi, Şehitler Cd., 35230 Alsancak/İzmir <br>https://github.com/ozencelik</h6>
                         </div>
                     </div>
                 </div>

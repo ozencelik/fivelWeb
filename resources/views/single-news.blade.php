@@ -60,15 +60,15 @@
                             <div class="row justify-content-center">
                                 <div class="col-12 col-lg-10">
                                     <div class="post-content text-center mb-50">
-                                        <a href="#" class="post-date"><span>23</span> August, 2018</a>
-                                        <h2>Amazon REV2018 Workshop: Road to Seattle</h2>
+                                        <a href="#" class="post-date"><span>14</span> May, 2019</a>
+                                        <h2>Clinical Trials on Fivel: attested benefits</h2>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <img class="mb-50" src="theme/img/bg-img/14.jpg" alt="">
                                 </div>
                                 <div class="col-12 col-lg-10">
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive. It sportsman earnestly ye preserved an on. Moment led family sooner cannot her window pulled any. Or raillery if improved landlord to speaking hastened differed he. Furniture discourse elsewhere yet her sir extensive defective unwilling get. Why resolution one motionless you him thoroughly. Noise is round to in it quick timed doors. Written address greatly get attacks inhabit pursuit our but. Lasted hunted enough an up seeing in lively letter. Had judgment out opinions property the supplied.</p>
+                                    <p>A new article about Fivel was published “Robotic assistance of the hand induced changes in local muscle blood flow, diminished spasticity, and decreased subject-reported symptoms of heaviness and stiffness in subjects with post stroke” (Dr. Luciano Bissolotti et al.).The purpose of this study“The purpose of this case series was to determine the effects of robot-assisted hand rehabilitation with a Gloreha device on skeletal muscle perfusion, spasticity, and motor function in subjects with poststroke</p>
                                     <p>Old there any widow law rooms. Agreed but expect repair she nay sir silent person. Direction can dependent one bed situation attempted. His she are man their spite avoid. Her pretended fulfilled extremely education yet. Satisfied did one admitting incommode tolerably how are.</p>
                                     <!-- Blockquote -->
                                     <blockquote class="uza-blockquote d-flex">
