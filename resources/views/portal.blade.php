@@ -67,12 +67,12 @@
 		                        <div class="overlay-effect">
 		                            <h4>{{ $movement->title }}</h4>
 		                            <p>{{ $movement->description }}</p>
-		                            <input type="checkbox" class="btn uza-btn btn-3" value="Movement[]"> 
+		                            <!--<input type="checkbox" class="btn uza-btn btn-3" value="Movement[]"> -->
 		                        </div>
-		                        <!-- View More 
+		                        <!-- View More -->
 	                            <div class="view-more-btn" name="Movement[]">
-	                                <a href="#"><i class="icon_plus"></i></a>
-	                            </div> -->
+	                                <a href="{{ route('addToMovement', ['id' => $movement->id]) }}"><i class="icon_plus"></i></a>
+	                            </div>
 
 		                    </div>
 		                </div>
@@ -85,10 +85,8 @@
 		</div>
 
         <div class="row">
-        	<input type="submit" class="btn uza-btn btn-3" value="Set to FIVEL"> 
             <div class="col-12 text-center mt-30">
-                
-                
+            <a href="{{ route('sendMovement') }}" class="btn uza-btn btn-3">Set to FIVEL</a>                
             </div>
         </div>
     </section>

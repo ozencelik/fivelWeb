@@ -56,17 +56,19 @@
             <div class="row justify-content-between align-items-end">
                 <div class="col-12 col-md-6">
                     <div class="portfolio-details-text">
-                        <h2>Market Analysis</h2>
+                        <h2>FIVEL PRO</h2>
                         <h6>Analysis, Marketing</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
+                        <p>FIVEL devices are the most advanced, effective and user-friendly technological combination to pursue hand and upper limb rehabilitation. At the service of patients, doctors, therapists.FIVEL is a physiotherapy glove that can work with physiotherapist. At the service of patients, doctors, therapists.</p>
+                        <p>FIVEL PRO is the most detailed product in the FIVEL product family. There are 5 different glove which are doing different movements.</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-3">
                     <div class="portfolio-meta">
-                        <h6>Client: Clarence Ryan</h6>
-                        <h6>Date: 07 DEC 2018</h6>
-                        <h6>Location: United States</h6>
-                        <h6>Author: Phillip Simon</h6>
+                        <h6>CTO: Özenç Çelik</h6>
+                        <h6>CEO: Betül Demirci</h6>
+                        <h6>Date: 14 MAY 2019</h6>
+                        <h6>Location: Bornovo/İZMİR</h6>
+                        
                     </div>
                     <div class="portfolio-social-info d-flex align-items-center">
                         <p>Share:</p>
@@ -82,7 +84,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="portfolio-thumbnail mt-80">
-                        <img src="theme/img/bg-img/13.jpg" alt="">
+                        <img src="theme/img/bg-img/fivel-pro.png" alt="">
                     </div>
                 </div>
             </div>
