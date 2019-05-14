@@ -53,19 +53,6 @@
                         <div class="classynav">
                             <ul id="nav">
                                 <li class="current-item"><a href="{{route('home')}}">Home</a></li>
-                                <li><a href="#">Pages</a>
-                                    <ul class="dropdown">
-                                        <li><a href="{{route('home')}}">- Home</a></li>
-                                        <li><a href="{{route('about')}}">- About</a></li>
-                                        <li><a href="./services.html">- Services</a></li>
-                                        <li><a href="{{route('portfolio')}}">- Portfolio</a></li>
-                                        <li><a href="{{route('portfolio-single')}}">- Single Portfolio</a></li>
-                                        <li><a href="{{route('news')}}">- News</a></li>
-                                        <li><a href="{{route('single-news')}}">- News Details</a></li>
-                                        <li><a href="{{route('contact')}}">- Contact</a></li>
-                                        
-                                    </ul>
-                                </li>
                                 <li><a href="{{route('portfolio')}}">Portfolio</a></li>
                                 <li><a href="{{route('about')}}">About</a></li>
                                 <li><a href="#">News</a>

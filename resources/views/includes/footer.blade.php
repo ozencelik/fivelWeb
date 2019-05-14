@@ -11,8 +11,8 @@
 
                         <!-- Footer Content -->
                         <div class="footer-content mb-15">
-                            <h3>(+65) 1234 5678</h3>
-                            <p>40 Baria Sreet 13/2 NY City, US <br> hello.colorlib@gmail.com</p>
+                            <h3>(+538) 354 45 77</h3>
+                            <p>Gazi Osman Paşa Mahallesi, 35090 Bornova/İzmir<br> https://github.com/ozencelik</p>
                         </div>
                         <p class="mb-0">Mon - Fri: 9:00 - 19:00 <br>
                             Closed on Weekends</p>
@@ -31,8 +31,8 @@
                                 <li><a href="{{route('about')}}">About Us</a></li>
                                 <li><a href="{{route('news')}}">News</a></li>
                                 <li><a href="{{route('contact')}}">Contact Us</a></li>
-                                <li><a href="#">Forum Registeration</a></li>
-                                <li><a href="#">Forum Sign In</a></li>
+                                <li><a href="{{route('signin')}}">Register</a></li>
+                                <li><a href="{{route('signup')}}">Sign In</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -62,7 +62,7 @@
                     <div class="single-footer-widget mb-80">
                         <!-- Widget Title -->
                         <h4 class="widget-title">About Us</h4>
-                        <p>Integer vehicula mauris libero, at molestie eros imperdiet sit amet.</p>
+                        <p>FIVEL is a physiotherapy glove that can work with physiotherapist.</p>
 
                        
 
@@ -82,7 +82,7 @@
  <div class="row" style="margin-bottom: 30px;">
                 
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with by <a href="https://colorlib.com" target="_blank"> Özenç Çelik<i class="fa fa-heart-o" aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank">Betül Demirci</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with by <a href="https://github.com/ozencelik/fivelWeb" target="_blank"> <i class="fa fa--o" aria-hidden="true"></i> Özenç Çelik - Betül Demirci <a href="https://github.com/ozencelik/fivelWeb" target="_blank"></a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </div>
 
