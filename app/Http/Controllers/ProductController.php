@@ -19,6 +19,12 @@ class ProductController extends Controller
     	return view('portfolio', ['products' => $products]);
     }
 
+    public function getApiProduct()
+    {
+        $products = Product::all();
+        return $products;
+    }
+
     public function getAddToCart(Request $request, $id)
     {
     	$product = Product::find($id);
@@ -29,6 +35,21 @@ class ProductController extends Controller
     	$request->session()->put('cart', $cart);
     	return redirect()->route('portfolio');
     	
+    }
+
+    public function getReduceByOne($id)
+    {
+        $oldCart = Session::has('cart') ? Session::get('cart') : null;
+        $cart = new Cart($oldCart);
+        $cart->reduceByOne($id);
+
+        
+        if(count($cart->items) > 0){
+            Session::put('cart', $cart);
+        }else{
+            Session::forget('cart');
+        }
+        return redirect()->route('shoppingCart');
     }
 
     public function getShoppingCart()

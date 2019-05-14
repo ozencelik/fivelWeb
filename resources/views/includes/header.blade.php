@@ -55,6 +55,7 @@
                                 <li class="current-item"><a href="{{route('home')}}">Home</a></li>
                                 @auth
                                  <li><a href="{{route('portfolio')}}">Portfolio</a></li>
+                                 <li><a href="{{route('portal')}}">Portal</a></li>
                                 @endauth
                                  <li><a href="{{route('portal')}}">Portal</a></li>
                                 <li><a href="{{route('about')}}">About</a></li>

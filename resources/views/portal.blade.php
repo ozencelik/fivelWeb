@@ -83,12 +83,19 @@
 	        	@endforeach
     		</form>
 		</div>
-
+        
         <div class="row">
             <div class="col-12 text-center mt-30">
-            <a href="{{ route('sendMovement') }}" class="btn uza-btn btn-3">Set to FIVEL</a>                
+            <a href="{{ route('sendMovement') }}" class="btn uza-btn btn-3">Set to FIVEL</a>
             </div>
         </div>
+        
+          <!--
+         <div class="row">
+            <div class="col-12 text-center mt-30">
+                <a href="{{route('portfolio-single')}}" class="btn uza-btn btn-3">Set to FIVEL</a>
+            </div>
+        </div> -->
     </section>
     <!-- ****** Gallery Area End ****** -->
 

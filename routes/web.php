@@ -15,58 +15,61 @@
 Route::get('/', function () {
 	    return view('welcome');
 	})->name('home');
+
+///////////////////////////////////////////////
+//API
+
+Route::get('/api', [
+	'uses' => 'ProductController@getApiProduct',
+	'as' => 'api.product'
+]);
 	
-	
-	
+///////////////////////////////////////////////
 
-	
-	///////////////////////////////////////////////
+Route::get('/signup', [
+	'uses' => 'UserController@getSignUp',
+	'as' => 'signup'
+]);
 
-	Route::get('/signup', [
-		'uses' => 'UserController@getSignUp',
-		'as' => 'signup'
-	]);
+Route::post('/signup', [
+	'uses' => 'UserController@postSignUp',
+	'as' => 'signup'
+]);
 
-	Route::post('/signup', [
-		'uses' => 'UserController@postSignUp',
-		'as' => 'signup'
-	]);
+///////////////////////////////////////////////
 
-	///////////////////////////////////////////////
+Route::get('/signin', [
+	'uses' => 'UserController@getSignIn',
+	'as' => 'signin'
+]);
 
-	Route::get('/signin', [
-		'uses' => 'UserController@getSignIn',
-		'as' => 'signin'
-	]);
+Route::post('/signin', [
+	'uses' => 'UserController@postSignIn',
+	'as' => 'signin'
+]);	
 
-	Route::post('/signin', [
-		'uses' => 'UserController@postSignIn',
-		'as' => 'signin'
-	]);	
+///////////////////////////////////////////////
 
-	///////////////////////////////////////////////
-	
 
-	Route::get('/about', [
-		'uses'=> 'Controller@getAbout',
-		'as' => 'about'
-	]);	
+Route::get('/about', [
+	'uses'=> 'Controller@getAbout',
+	'as' => 'about'
+]);	
 
-	Route::get('/news', [
-		'uses'=> 'Controller@getNews',
-		'as' => 'news'
-	]);
+Route::get('/news', [
+	'uses'=> 'Controller@getNews',
+	'as' => 'news'
+]);
 
-	Route::get('/single-news', [
-		'uses'=> 'Controller@getSingleNews',
-		'as' => 'single-news'
-	]);
+Route::get('/single-news', [
+	'uses'=> 'Controller@getSingleNews',
+	'as' => 'single-news'
+]);
 
-	Route::get('/contact', [
-		'uses'=> 'Controller@getContact',
-		'as' => 'contact'
-	]);
-
+Route::get('/contact', [
+	'uses'=> 'Controller@getContact',
+	'as' => 'contact'
+]);
 
 
 Route::group(['middleware' => ['auth']], function(){
@@ -116,9 +119,15 @@ Route::group(['middleware' => ['auth']], function(){
 		'as' => 'checkout'
 	]);
 
+
+	Route::get('/reduce/{id}', [
+		'uses' => 'ProductController@getReduceByOne',
+		'as' => 'reduceByOne'
+
 	Route::get('/send-movement', [
 		'uses' => 'MovementController@postSendMovement',
 		'as' => 'sendMovement'
+
 	]);
 
 	///////////////////////////////////////////////
@@ -142,3 +151,4 @@ Route::group(['middleware' => ['auth']], function(){
 
 
 });
+
