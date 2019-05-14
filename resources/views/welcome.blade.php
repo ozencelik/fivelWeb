@@ -140,9 +140,8 @@
                 <div class="col-12 col-md-6">
                     <div class="about-us-content mb-80">
                         <h2>We're a Great Team &amp; Medical Start-up</h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna
-                            liquyam erat.</p>
+                        <p>FIVEL devices are the most advanced, effective and user-friendly technological combination to pursue hand and upper limb rehabilitation. At the service of patients, doctors, therapists.</p>
+                        <p>FIVEL is a physiotherapy glove that can work with physiotherapist. At the service of patients, doctors, therapists.</p>
                         <a href="{{route('about')}}" class="btn uza-btn btn-2 mt-4">Start Exploring</a>
                     </div>
                 </div>
@@ -177,8 +176,8 @@
                         <div class="service-icon">
                             <i class="icon_cone_alt"></i>
                         </div>
-                        <h5>Business Strategy</h5>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata.</p>
+                        <h5>Martketing</h5>
+                        <p> Marketing is the business process of creating relationships with and satisfying customers.</p>
                     </div>
                 </div>
 
@@ -189,8 +188,8 @@
                         <div class="service-icon">
                             <i class="icon_piechart"></i>
                         </div>
-                        <h5>Market Analytics</h5>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata.</p>
+                        <h5>Technical Service and Support</h5>
+                        <p>Technical support refers to services that entities provide to users of technology products.</p>
                     </div>
                 </div>
 
@@ -201,8 +200,8 @@
                         <div class="service-icon">
                             <i class="icon_easel"></i>
                         </div>
-                        <h5>Marketing Social</h5>
-                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata.</p>
+                        <h5>Data</h5>
+                        <p>Data analysis is a process of inspecting, cleansing, transforming, and modeling data</p>
                     </div>
                 </div>
 
@@ -232,20 +231,6 @@
 
                     <!-- Single Portfolio Slide -->
                     <div class="single-portfolio-slide">
-                        <img src="theme/img/bg-img/3.jpg" alt="">
-                        <!-- Overlay Effect -->
-                        <div class="overlay-effect">
-                            <h4>Digital Marketing</h4>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est</p>
-                        </div>
-                        <!-- View More -->
-                        <div class="view-more-btn">
-                            <a href="{{route('portfolio')}}"><i class="arrow_right"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- Single Portfolio Slide -->
-                    <div class="single-portfolio-slide">
                         <img src="theme/img/bg-img/4.jpg" alt="">
                         <!-- Overlay Effect -->
                         <div class="overlay-effect">
@@ -260,7 +245,7 @@
 
                     <!-- Single Portfolio Slide -->
                     <div class="single-portfolio-slide">
-                        <img src="theme/img/bg-img/5.jpg" alt="">
+                        <img src="theme/img/product-img/fivel-x.png" alt="">
                         <!-- Overlay Effect -->
                         <div class="overlay-effect">
                             <h4>Digital Marketing</h4>
@@ -274,7 +259,21 @@
 
                     <!-- Single Portfolio Slide -->
                     <div class="single-portfolio-slide">
-                        <img src="theme/img/bg-img/6.jpg" alt="">
+                        <img src="theme/img/product-img/fivel-pro.png" alt="">
+                        <!-- Overlay Effect -->
+                        <div class="overlay-effect">
+                            <h4>Digital Marketing</h4>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est</p>
+                        </div>
+                        <!-- View More -->
+                        <div class="view-more-btn">
+                            <a href="{{route('portfolio')}}"><i class="arrow_right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Single Portfolio Slide -->
+                    <div class="single-portfolio-slide">
+                        <img src="theme/img/product-img/fivel.png" alt="">
                         <!-- Overlay Effect -->
                         <div class="overlay-effect">
                             <h4>Digital Marketing</h4>
@@ -444,7 +443,7 @@
                     <div class="col-12 col-lg-4">
                         <div class="cta-content mb-80">
                             <div class="call-now-btn">
-                                <a href="#"><span>Call us now:</span> (+65) 1234 5678</a>
+                                <a href={{route('contact')}}"><span>Call us now:</span> (+538) 354 45 77</a>
                             </div>
                         </div>
                     </div>
@@ -472,8 +471,8 @@
                         <!-- Post Content -->
                         <div class="post-content">
                             <span class="post-date"><span>23</span> August, 2018</span>
-                            <a href="{{route('news')}}" class="post-title">SEO: The Movie By Ignite Visibility</a>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut</p>
+                            <a href="{{route('news')}}" class="post-title">Meet us during next events!</a>
+                            <p>Join us and visit our stand during the next events!We look forward to meeting you!</p>
                             <a href="{{route('news')}}" class="read-more-btn">Read More <i class="arrow_carrot-2right"></i></a>
                         </div>
                     </div>
@@ -485,8 +484,8 @@
                         <!-- Post Content -->
                         <div class="post-content">
                             <span class="post-date"><span>13</span> December, 2018</span>
-                            <a href="{{route('news')}}" class="post-title">What Curling Irons Are The Best Ones</a>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut</p>
+                            <a href="{{route('news')}}" class="post-title">Clinical Trials on Fivel: attested benefits</a>
+                            <p>“The purpose of this case series was to determine the effects of robot-assisted hand rehabilitation </p>
                             <a href="{{route('news')}}" class="read-more-btn">Read More <i class="arrow_carrot-2right"></i></a>
                         </div>
                     </div>
@@ -498,8 +497,8 @@
                         <!-- Post Content -->
                         <div class="post-content">
                             <span class="post-date"><span>08</span> July, 2018</span>
-                            <a href="{{route('news')}}" class="post-title">Amazon REV Workshop: Road to Seattle</a>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut</p>
+                            <a href="{{route('news')}}" class="post-title">Next appointments and events!</a>
+                            <p>The treatment of chronic patients is the emergency for coming years due to ageing population. </p>
                             <a href="{{route('news')}}" class="read-more-btn">Read More <i class="arrow_carrot-2right"></i></a>
                         </div>
                     </div>
