@@ -123,6 +123,7 @@ Route::group(['middleware' => ['auth']], function(){
 	Route::get('/reduce/{id}', [
 		'uses' => 'ProductController@getReduceByOne',
 		'as' => 'reduceByOne'
+    ]);
 
 	Route::get('/send-movement', [
 		'uses' => 'MovementController@postSendMovement',
