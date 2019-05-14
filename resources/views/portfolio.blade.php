@@ -77,7 +77,7 @@
                                 </div>
                                 <!-- View More -->
                                 <div class="view-more-btn">
-                                    <a href="{{route('portfolio-single')}}"><i class="arrow_right"></i></a>
+                                    <a href="{{ route('addToCart', ['id' => $product->id]) }}"><i class="arrow_right"></i></a>
                                 </div>
                             </div>
                         </div>

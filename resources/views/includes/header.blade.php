@@ -53,7 +53,9 @@
                         <div class="classynav">
                             <ul id="nav">
                                 <li class="current-item"><a href="{{route('home')}}">Home</a></li>
-                                <li><a href="{{route('portfolio')}}">Portfolio</a></li>
+                                @auth
+                                 <li><a href="{{route('portfolio')}}">Portfolio</a></li>
+                                @endauth
                                 <li><a href="{{route('about')}}">About</a></li>
                                 <li><a href="#">News</a>
                                     <ul class="dropdown">
@@ -64,20 +66,26 @@
                                 <li><a href="{{route('contact')}}">Contact</a></li>
                             </ul>
 
-                            <!-- Get A Quote -->
-                            <div class="get-a-quote ml-4 mr-3">
-                                <a href="#" class="btn uza-btn">FIVEL Card</a>
-                            </div>
 
                             @auth
+                                <!-- Get A Quote -->
+                                <div class="get-a-quote ml-4 mr-3">
+                                    <a href="{{ route('shoppingCart') }}" class="btn uza-btn">FIVEL Card <span class=badge>{{ Session::has('cart') ? Session::get('cart')->totalQty : '' }}</span></a>
+                                </div>
+
                                  <!-- Login / Register -->
                                 <div class="login-register-btn mx-3">
-                                    <a>{{ Auth::user()->name }}</a>
+                                    <a href="{{route('user.profile')}}">{{ Auth::user()->name }}</a>
                                     <a href="{{ route('logout') }}">/ Logout</a>
                                 </div>
                             @endauth
 
                             @guest
+                                <!-- Get A Quote -->
+                                <div class="get-a-quote ml-4 mr-3">
+                                    <a href="{{ route('shoppingCart') }}" class="btn uza-btn">FIVEL Card</a>
+                                </div>
+
                                <!-- Login / Register -->
                                 <div class="login-register-btn mx-3">
                                     <a href="{{ route('signin') }}">Login</a>
