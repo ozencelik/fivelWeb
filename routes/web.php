@@ -16,7 +16,6 @@ Route::get('/', function () {
 	    return view('welcome');
 	})->name('home');
 
-
 ///////////////////////////////////////////////
 //API
 
@@ -73,7 +72,6 @@ Route::get('/contact', [
 ]);
 
 
-
 Route::group(['middleware' => ['auth']], function(){
 	
 	Route::get('/logout', [
@@ -101,6 +99,11 @@ Route::group(['middleware' => ['auth']], function(){
 
 	///////////////////////////////////////////////
 
+	Route::get('/add-to-movement/{id}', [
+		'uses' => 'MovementController@getAddToMovement',
+		'as' => 'addToMovement'
+	]);
+
 	Route::get('/add-to-cart/{id}', [
 		'uses' => 'ProductController@getAddToCart',
 		'as' => 'addToCart'
@@ -116,9 +119,15 @@ Route::group(['middleware' => ['auth']], function(){
 		'as' => 'checkout'
 	]);
 
+
 	Route::get('/reduce/{id}', [
 		'uses' => 'ProductController@getReduceByOne',
 		'as' => 'reduceByOne'
+
+	Route::get('/send-movement', [
+		'uses' => 'MovementController@postSendMovement',
+		'as' => 'sendMovement'
+
 	]);
 
 	///////////////////////////////////////////////

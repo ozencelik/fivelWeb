@@ -57,6 +57,7 @@
                                  <li><a href="{{route('portfolio')}}">Portfolio</a></li>
                                  <li><a href="{{route('portal')}}">Portal</a></li>
                                 @endauth
+                                 <li><a href="{{route('portal')}}">Portal</a></li>
                                 <li><a href="{{route('about')}}">About</a></li>
                                 <li><a href="#">News</a>
                                     <ul class="dropdown">

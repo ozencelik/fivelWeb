@@ -54,9 +54,9 @@
         <!-- Portfolio Menu -->
         <div class="portfolio-menu text-center mb-80">
             <button class="btn active" data-filter="*">All Portfolio</button>
-            <button class="btn" data-filter=".ux-ui-design">UX/UI Design</button>
-            <button class="btn" data-filter=".market-analytics">Market Analytics</button>
-            <button class="btn" data-filter=".marketing-social">Marketing Social</button>
+            <button class="btn" data-filter=".ux-ui-design">Fivel</button>
+            <button class="btn" data-filter=".market-analytics">Fivel X</button>
+            <button class="btn" data-filter=".marketing-social">Fivel Pro</button>
         </div>
 
         <div class="container-fluid">

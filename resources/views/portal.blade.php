@@ -71,8 +71,8 @@
 		                        </div>
 		                        <!-- View More -->
 	                            <div class="view-more-btn" name="Movement[]">
-	                                <a href="#"><i class="icon_plus"></i></a>
-	                            </div> 
+	                                <a href="{{ route('addToMovement', ['id' => $movement->id]) }}"><i class="icon_plus"></i></a>
+	                            </div>
 
 		                    </div>
 		                </div>
@@ -83,19 +83,19 @@
 	        	@endforeach
     		</form>
 		</div>
-        <!--
+        
         <div class="row">
-        	<input type="submit" class="btn uza-btn btn-3" value="Set to FIVEL"> 
-            <div class="col-12 text-center mt-30">                
+            <div class="col-12 text-center mt-30">
+            <a href="{{ route('sendMovement') }}" class="btn uza-btn btn-3">Set to FIVEL</a>
             </div>
         </div>
-        -->
-
+        
+          <!--
          <div class="row">
-                <div class="col-12 text-center mt-30">
-                    <a href="{{route('portfolio-single')}}" class="btn uza-btn btn-3">Set to FIVEL</a>
-                </div>
+            <div class="col-12 text-center mt-30">
+                <a href="{{route('portfolio-single')}}" class="btn uza-btn btn-3">Set to FIVEL</a>
             </div>
+        </div> -->
     </section>
     <!-- ****** Gallery Area End ****** -->
 

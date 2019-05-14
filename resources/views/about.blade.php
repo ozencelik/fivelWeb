@@ -201,8 +201,8 @@
                         <img src="theme/img/bg-img/19.jpg" alt="">
                         <!-- Overlay Effect -->
                         <div class="overlay-effect">
-                            <h6>DESIGNER</h6>
-                            <h4>Roger Black</h4>
+                            <h6>CEO</h6>
+                            <h4>Betül Demirci</h4>
                             <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.</p>
                         </div>
                         <!-- Social Info -->
@@ -220,8 +220,8 @@
                         <img src="theme/img/bg-img/20.jpg" alt="">
                         <!-- Overlay Effect -->
                         <div class="overlay-effect">
-                            <h6>DESIGNER</h6>
-                            <h4>Roger Black</h4>
+                            <h6>CTO</h6>
+                            <h4>Özenç Çelik</h4>
                             <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est.</p>
                         </div>
                         <!-- Social Info -->
@@ -354,7 +354,7 @@
                 <div class="col-12 col-lg-4">
                     <div class="cta-content mb-80">
                         <div class="call-now-btn">
-                            <a href="#"><span>Call us now:</span> (+65) 1234 5678</a>
+                            <a href="#"><span>Call us now:</span> (+538) 354 45 77</a>
                         </div>
                     </div>
                 </div>
@@ -379,7 +379,7 @@
                             </div>
                             <!-- Testimonial Content -->
                             <div class="testimonial-content">
-                                <h4>“Colorlib Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable.”</h4>
+                                <h4>“Fivel ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts.”</h4>
                                 <!-- Ratings -->
                                 <div class="ratings">
                                     <i class="icon_star"></i>
@@ -390,7 +390,7 @@
                                 </div>
                                 <!-- Author Info -->
                                 <div class="author-info">
-                                    <h5>Darrell Goodman <span>- CEO colorlib</span></h5>
+                                    <h5>Özenç Çelik <span>- CTO Fivel</span></h5>
                                 </div>
                                 <!-- Quote Icon -->
                                 <div class="quote-icon"><img src="theme/img/core-img/quote.png" alt=""></div>
@@ -405,7 +405,7 @@
                             </div>
                             <!-- Testimonial Content -->
                             <div class="testimonial-content">
-                                <h4>“Colorlib Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable.”</h4>
+                                <h4>“Fivel ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts.”</h4>
                                 <!-- Ratings -->
                                 <div class="ratings">
                                     <i class="icon_star"></i>
@@ -416,7 +416,7 @@
                                 </div>
                                 <!-- Author Info -->
                                 <div class="author-info">
-                                    <h5>Darrell Goodman <span>- CEO colorlib</span></h5>
+                                    <h5>Betül Demirci <span>- CEO Fivel</span></h5>
                                 </div>
                                 <!-- Quote Icon -->
                                 <div class="quote-icon"><img src="theme/img/core-img/quote.png" alt=""></div>
@@ -431,7 +431,7 @@
                             </div>
                             <!-- Testimonial Content -->
                             <div class="testimonial-content">
-                                <h4>“Colorlib Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable.”</h4>
+                                <h4>“Fivel ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts.”</h4>
                                 <!-- Ratings -->
                                 <div class="ratings">
                                     <i class="icon_star"></i>
@@ -442,7 +442,7 @@
                                 </div>
                                 <!-- Author Info -->
                                 <div class="author-info">
-                                    <h5>Darrell Goodman <span>- CEO colorlib</span></h5>
+                                    <h5>Darrell Goodman <span>- Designer Fivel</span></h5>
                                 </div>
                                 <!-- Quote Icon -->
                                 <div class="quote-icon"><img src="theme/img/core-img/quote.png" alt=""></div>
