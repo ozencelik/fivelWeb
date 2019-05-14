@@ -39,7 +39,7 @@ class UserController extends Controller
 
 		Auth::login($physiotherapist);
 
-		return redirect()->route("portal");
+		return redirect()->route("home");
 	}
 
 
@@ -57,7 +57,7 @@ class UserController extends Controller
 		]);
 
 		if(Auth::attempt(['email' => $request['email'], 'password' => $request['password']])){
-			return redirect()->route('portal');
+			return redirect()->route('home');
 		}
 		return redirect()->back();
 

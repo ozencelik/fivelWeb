@@ -55,15 +55,17 @@
                         @foreach($products as $product)
 
                             <li class="list-group-item">
-                                
+                                <a align="right" href="{{ route('reduceByOne', ['id'=> $product['item']['id']]) }}"><button  type="button" class="btn btn-primary btn-xs">X</button></a>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="badge">|</span>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <span class="badge">{{ $product['qty'] }}</span>
                                 <strong>{{ $product['item']['name'] }}</strong>
                                 <span class="label label-success">{{ $product['price'] }}</span>
 
-                                <button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">Action<span class="caret"></span></button>
                                 <ul class="dropdown-menu">
-                                    <li href="#">Reduce by 1</li>
-                                    <li href="#">Reduce All</li>
+                                    <li href="{{ route('reduceByOne', ['id'=> $product['item']['id']]) }}"> Reduce by 1</li>
+                                    <li href="#"> Reduce All</li>
                                 </ul>
                             </li>
 
